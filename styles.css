@@ -1,0 +1,162 @@
+body{
+	background:#727272 url(images/page-bg.jpg);
+	margin:0px;
+	font: 400 14px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+	color:#6a6969;
+}
+h1{font: 400 40px/20px 'Bree Serif', Georgia, serif; color:#ada9a9;}
+h2{font: 400 18px/22px 'Bree Serif', Georgia, serif; color:#ada9a9;}
+h3{font: 400 14px/22px 'Bree Serif', Georgia, serif; color:#6a6969;}
+ul{margin:0px; padding:0px;}
+a {text-decoration:none; color:#978b8b;}
+a:hover {color:#f1eeee;}
+a img{border:0px;}
+
+li {
+	float: left;
+	margin: 0 20px;
+  }
+
+#container{
+	width:950px;
+	margin:0px auto 0px auto;
+	background:url(images/body-bg.png);
+	overflow:auto;
+	padding-bottom:100px;
+}
+
+/****************************************************/
+/* HEADER */
+/****************************************************/
+
+#header{
+	width:864px;
+	height:110px;
+	background-color:#222222;
+	padding:0px 43px;
+	position: fixed;
+	top:0px;
+	left:50%;
+	margin: 0 0 0 -475px;
+}
+#header #logo{
+	padding-top:10px;
+	float:left;
+}
+#header #main-menu{float:right; padding-top:45px;}
+#header #main-menu li{
+	float:left;
+	list-style:none;
+	margin-left:27px;
+	font: 400 16px/20px 'Bree Serif', Georgia, serif;
+}
+
+/****************************************************/
+/* ABOUT SECTION */
+/****************************************************/
+
+#about{margin:0px 50px; padding-top:115px;}
+#about h1{float:left;}
+#about h3{float:right;}
+#about #top-social{float:right; padding-top:12px;}
+#about #top-social li{float:left; list-style:none; margin-left:5px;}
+
+#about #top-social .github{
+	text-indent:-9999px; 
+	display:block; 
+	width:40px; 
+	height:40px; 
+	background:url(images/sm-github-icon.png) no-repeat;
+}
+
+#about #top-social .telegram{
+	text-indent:-9999px; 
+	display:block; 
+	width:40px; 
+	height:40px; 
+	background:url(images/sm-telegram-icon.png) no-repeat;
+}
+
+#about #top-social .linkedin{
+	text-indent:-9999px; 
+	display:block; 
+	width:40px; 
+	height:40px; 
+	background:url(images/sm-linkedin-icon.png) no-repeat;
+}
+
+#about #top-social .mail{
+	text-indent:-9999px; 
+	display:block; 
+	width:40px; 
+	height:40px; 
+	background:url(images/sm-mail-icon.png) no-repeat;
+}
+
+
+
+#about .content{overflow:auto;}
+#about .content img{float:left; margin-right:40px; border:5px solid #222222;}
+#about .col{
+	width:235px;
+	float:left;
+}
+
+/*#about .content #service-icons{margin-top:10px;}*/
+/*#about .content #service-icons li{
+	display:block;
+	width:90px;
+	height:90px;
+	text-indent:-9999px;
+	list-style:none;
+	float:left;
+	margin-right:20px;
+}
+
+/****************************************************/
+/* EXPERIENCE SECTION */
+/****************************************************/
+
+#experience{margin:0px 43px; padding-top:5px;}
+#experience .col{
+	width:240px;
+	float:left;
+}
+#experience .content{overflow:auto;}
+#experience .col-mid{margin:0px 60px;}
+
+/****************************************************/
+/* EDUCATION SECTION */
+/****************************************************/
+
+#education{margin:0px 43px; padding-top:5px;}
+#education .col{
+	width:235px;
+	float:left;
+}
+#education .content{overflow:auto;}
+#education .col-mid{margin:0px 60px;}
+
+/****************************************************/
+/* SKILLS SECTION */
+/****************************************************/
+
+#skills{margin:0px 43px; padding-top:5px;}
+#skills .col{
+	width:235px; 
+	float:left; 
+}
+#skills .content{overflow:auto;}
+#skills .col-mid{margin:0px 60px;}
+
+/****************************************************/
+/* MISC */
+/****************************************************/
+.top-divider, .bottom-divider{
+	width:100%;
+	height:9px;
+	background:url(images/divider.png) repeat-x;
+	clear:both;
+}
+.top-divider{margin-bottom:20px;}
+.bottom-divider{margin-top:40px;}
